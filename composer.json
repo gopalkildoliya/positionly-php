@@ -1,0 +1,25 @@
+{
+    "name": "gopal/positionly-php",
+    "description": "Positionly API PHP composer library.",
+    "keywords": ["positionly", "keyword tracking", "composer", "package"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Gopal Kildoliya",
+            "email": "gopalkildoliya@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.4",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "Gopal\\Positionly\\": "src/"
+        }
+    }
+}
